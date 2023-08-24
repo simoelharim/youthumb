@@ -1,66 +1,67 @@
-/* This is where the default styles for your application can be defined */
-
-/* Set the base font and background color for the entire app */
+/* Apply a modern and clean default style */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f7fafc;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f5f8fa;
+  margin: 0;
+  padding: 0;
 }
 
-/* Center align the content in the container */
+/* Center align the content and add more spacing */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
-/* Style the input and button for the YouTube URL */
+/* Style the input for better readability */
 input[type="text"] {
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 0.8rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
   width: 100%;
+  font-size: 16px;
+  transition: border-color 0.3s;
 }
 
-/* Add some spacing between input and button */
-input[type="text"] + button {
-  margin-top: 0.5rem;
+input[type="text"]:focus {
+  border-color: #3498db;
 }
 
-/* Style the "Download Thumbnails" button */
+/* Improve the button style */
 .btn-blue {
   background-color: #3498db;
   color: white;
   font-weight: bold;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 .btn-blue:hover {
-  background-color: #2680c5;
+  background-color: #2180c0;
 }
 
-/* Style the thumbnail options */
+/* Enhance the thumbnail options */
 .thumbnail-option {
   background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
   text-align: center;
-  transition: box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
 }
 
 .thumbnail-option:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Style the images within thumbnail options */
-.thumbnail-option img {
-  max-width: 100%;
-  height: auto;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Style the "Copy Image URL" button */
@@ -68,12 +69,13 @@ input[type="text"] + button {
   background-color: #3498db;
   color: white;
   font-weight: bold;
-  padding: 0.3rem 0.6rem;
-  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 .thumbnail-option button:hover {
-  background-color: #2680c5;
+  background-color: #2180c0;
 }
