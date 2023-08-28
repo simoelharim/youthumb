@@ -79,22 +79,3 @@ input[type="text"]:focus {
 .thumbnail-option button:hover {
   background-color: #2180c0;
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
-    <style>
-        body {
-            background-image: url('alexander-shatov-niUkImZcSP8-unsplash.jpg');
-            background-size: cover; /* Adjust to cover the entire screen */
-            background-repeat: no-repeat; /* Prevent image from repeating */
-            background-attachment: fixed; /* Keep image fixed when scrolling */
-        }
-    </style>
-</head>
-<body>
-    <!-- https://youthumb-rosy.vercel.app/ -->
-</body>
-</html>
