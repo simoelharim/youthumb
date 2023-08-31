@@ -27,8 +27,9 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <div class="centered-paragraph">
             <p>Welcome to our YouTube Thumbnail Downloader: Your Tool for Eye-Catching Thumbnails!</p>
-
+            </div>
             <p>Are you a content creator looking to enhance the visual appeal of your YouTube videos? The thumbnail is the first thing viewers see, making it a crucial element in attracting their attention. Our YouTube Thumbnail Downloader is here to help you create captivating thumbnails that make your videos impossible to ignore.</p>
 
             <p>What is a YouTube Thumbnail Downloader?</p>
