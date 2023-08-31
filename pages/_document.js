@@ -23,6 +23,8 @@ class MyDocument extends Document {
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
+          <link rel="stylesheet" type="text/css" href="index.css">
+          </link>
         </Head>
         <body>
           <Main />
